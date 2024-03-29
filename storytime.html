@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -14,12 +12,11 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-	<link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
     <title>Aadit Bioscope - Inspirational Blogging</title>
 	<!-- Favicon -->
-	<link rel="icon" href="/img/author.ico">
+	<link rel="icon" type="image/x-icon" href="/img/author.ico">
   </head>
   <body>
     
@@ -32,11 +29,10 @@
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <a class="navbar-brand" href="#"><img src="./img/logo.png"></a>
+		  <a class="navbar-brand" href="./index.html"><img src="./img/logo.png"></a>
 
 
 		<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
-			
 		                <ul class="navbar-nav">
 		                    <li class="nav-item">
 		                    <a class="nav-link" href="#">My Blogs</a>
@@ -53,40 +49,25 @@
 	  </div>
 	  </nav>
 
-	  <!-- hero section -->
+		<!-- Hero Section -->
 	  <div class="container" id="hero">
 	  	<div class="row justify-content-end">
 	  		<div class="col-lg-6 hero-img-container">
-	  			<a href="./single.html">
 	  			<div class="hero-img">
-	  				<img src="./img/hero-img.png">
+	  				<!-- hero img -->
+	  				<img src="./img/hero-img-3.jpeg">
 	  			</div>
-	  			</a>
 	  		</div>	  		
 
 	  		<div class="col-lg-9">
 	  			<div class="hero-title">
-	  				<a href="./single.html">
-						<!-- Slider -->
-						<section class="cd-intro">
-							<h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
-							<span>Hi, My Name is Aadit & I am A</span><br>
-							<span class="cd-words-wrapper">
-								<b class="is-visible">Student</b>
-								<b>Son</b>
-								<b>Writer</b>
-								<b>Blogger</b>
-							</span>
-							</h1>
-						</section> <!-- cd-intro -->
-						<!-- /.slider -->
-	  				</a>
+	  				<h1>Story Time</h1>
 	  			</div>
-	  		</div>
 
+	  		</div>
+	  		<!-- hero meta -->
 	  		<div class="col-lg-6">
 	  			<div class="hero-meta">
-	  				<p>Let me Introduce myself to world.</p>
 	  				<div class="author">
 	  					<div class="author-img"><img src="./img/author-img.png"></div>
 	  					<div class="author-meta">
@@ -94,88 +75,69 @@
 	  					<span class="author-tag">Blogger</span>
 	  					</div>	
 	  				</div>
+	  				<span class="date mt-2">28th March, 2024</span>
+	  				<div class="tags mt-2">
+							<a href=""><span class="badge badge-pill p-2 badge-light">#Travel</span></a>
+							<a href="">
+							<span class="badge badge-pill p-2 badge-light">#Flight</span></a>
+							<a href="">
+							<span class="badge badge-pill p-2 badge-light">#Vlogger</span></a>
+	  				</div>
 	  			</div>
 	  		</div>
 	  	</div>
 	  </div>
 </div>
-<!-- hero ends -->
 
-<!-- Article Grid -->
 
-<div class="container mt-2 mb-2 pt-5 pb-5" id="article-grid">
+<!-- Content -->
+<div class="container mt-5" id="content">
 	<div class="row justify-content-center">
-
-		<div class="col-xl-6 col-lg-12 text-center">
-			<a href="./single.html">
-			<div class="article-card">
-			<div class="article-img">
-				<img src="./img/1.jpeg">
-			</div>
-
-				<div class="article-meta text-left">
-					<h2>My Life and My World</h2>
-					<p>My story starts from the hospital bed when I was born.</p>
-				</div>
-			</div>
-			</a>
+		<!-- Share buttons -->
+		<div class="col-lg-1 text-left mb-3 fixed" id="social-share">
+			<a class="btn  btn-light m-2" href="#"><i class="fab fa-facebook-f"></i></a>
+			<a class="btn  btn-light m-2" href="#"><i class="fab fa-google"></i></a>
+			<a class="btn  btn-light m-2" href="#"><i class="fab fa-twitter"></i></a>
 		</div>
-		<div class="col-xl-6 col-lg-12 text-center">
-			<a href="./dharamshala.html">
-			<div class="article-card">
-			<div class="article-img">
-				<img src="./img/2.jpeg">
-			</div>
 
-				<div class="article-meta text-left">
-					<h2>Trip To Dharamshala</h2>
-					<p>My trip so far was until 4 days so we had lot of fun.</p>
-				</div>
-			</div>
-			</a>
-		</div>		
-		<div class="col-xl-6 col-lg-12 text-center">
-			<a href="./storytime.html">
+		<!-- the content -->
+		<div class="col-xl-7 col-lg-10 col-md-12">
+			<p class="lead">Hey everyone, today I am going to tell you a story it took me an hour to finish this story so please read it.</p>
+			<p>Once upon a time there was a boy named Tim, he loved to draw and color, and his parents decided to open a shop. But he was having some issues one day he was angry over his parents and said, I do not want to share my personal drawings he shouted to his dad how would you feel when I share your drawings. His dad smiled and said I would be happy if you would share pictures on the social media, I would be happy, and people would give me likes and whenever I will go everyone will clap for me and I will answer social media’s questions I would be displayed in the T.V and everyone would be proud of me in the family. He glanced at his father face with big eyes. He just spoke with that expression that ok as you would say open a website, please in a shop I will be bored siting in the boiling sun. His dad said we will think that should we make a website or open a shop. The next day Tim made a pleading face, and his dad was going for work, but he saw Tim’s face and said OK I have decided what to do we will open a website. Tim’s face glowed and said quickly thank you thank you, thank you and went upstairs and sat on his bed. He opened a website and waiting for orders some did not like it some did like some did send a voice recording the next day his friend leno, Tina and Katei arrived and said Hi Tim we looked at your website it was beautiful we also liked some of your drawings Tim looked confused he said I am closing the website in night leno said ooookk? He asked so how did you like my drawing? Uh Tim you are not going to forgive me for this word, but I tampered with your website. Tim’s face turned in to an angry dinosaur face Tim exclaimed whaaaaaaaaat? His whole what shook the whole house why would you do that why would you tamper a website sorry Tim I just wanted to try my tricks on your website, but that website was secured ok I forgive you give me a hug I will forgive my friends</p>
+			<p>Tim and his friends lived happy ever after</p>
+			<p>THE END!!!!!!!!!!!!</p>
+			<p>Moral of the story: do not tamper anyone website</p>
+		</div>
+
+		<div class="col-lg-10 mt-3">
+			<hr>
+		</div>
+	</div>
+</div>
+
+
+<!-- Related Article Grid -->
+
+<div class="container mt-3 mb-5" id="article-grid">
+	<div class="row">
+
+		<div class="col-xl-6 col-lg-12  text-center">
+			<a href="">
 			<div class="article-card">
 			<div class="article-img">
 				<img src="./img/3.jpeg">
 			</div>
 
-				<div class="article-meta text-left">
-					<h2>Story Time</h2>
-					<p>Do not tamper anyone website.</p>
-				</div>
-			</div>
-			</a>
-		</div>			
-
-		<div class="col-xl-6 col-lg-12 text-center">
-			<a href="./single.html">
-			<div class="article-card">
-			<div class="article-img">
-				<img src="./img/4.jpeg">
-			</div>
-
-				<div class="article-meta text-left">
+				<div class="article-meta  text-left">
 					<h2>Next Blog - Coming Soon</h2>
 					<p>Began it will a more first was something return. Were ...</p>
 				</div>
 			</div>
 			</a>
 		</div>
-	
-	
 
-
-	</div> <!-- Article Grid Row Ends -->
-</div> <!-- Article Grid Container Ends -->
-
-<!-- More articles button -->
-
-<div class="container text-center pb-3 mb-5">
-		<a href="#" class="btn btn-lg btn-light">More Articles</a>
+	</div>
 </div>
-
 
 <!-- Footer section  -->
 
@@ -209,7 +171,7 @@
 		<!-- copyright text -->
 		<div class="row pt-2">
 			<div class="col-lg-12 text-center">
-				<span>&copy <a href="">PSquareINC</a> All Rights Received.</span>
+				<span>&copy <a href="">NewToDesign.com</a> All Rights Received.</span>
 			</div>
 		</div>
 	</div>
@@ -218,11 +180,6 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.countdown.min.js"></script>
-	<script src="js/slider.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
